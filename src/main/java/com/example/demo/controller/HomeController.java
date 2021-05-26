@@ -9,7 +9,7 @@ public class HomeController {
 	@GetMapping(value = "/home")
 	public String getHomePage()
 	{
-		String msg="<h1 style='text-align:center;color:green'>Welcome To Home Page</h1><hr/>";
+		String msg="<h1 style='text-align:center;color:red'>Welcome To Home Page</h1><hr/>";
 		return msg;
 	}
 	
